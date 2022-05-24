@@ -1,0 +1,9 @@
+SubScene {
+ Parent "worlds/Eden/Eden.ent"
+}
+Layer Logic {
+ Index 0
+}
+Layer Props {
+ Index 1
+}

@@ -1,0 +1,14 @@
+FNF_SustainedAssaultCapturePoint {
+ ID "5967495C5FF7C168"
+ components {
+  RplComponent "{596551DD02B241D9}" {
+  }
+ }
+ coords 11383.593 69.406 11198.29
+ TriggerShapeType Sphere
+ SphereRadius 23.1
+ TriggerActivationType "All changes"
+ PeriodicQueries 1
+ ClassFilter "SCR_ChimeraCharacterClass"
+ m_vObjectiveCenter 0 11.2 0
+}

@@ -1,0 +1,2236 @@
+Vehicle M923A1_command_MSP1 : "{06D8300404A9843E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MSP.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   EnableDamage 0
+   m_fVehicleDestroyDamage 21809.699
+  }
+ }
+ coords 11492.965 2.229 10907.964
+}
+Vehicle Ural4320_command_MSP1 : "{1B1800037FE9AB60}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_MSP.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   EnableDamage 0
+   m_fVehicleDestroyDamage 21809.699
+  }
+ }
+ coords 10651.205 2.344 11827.04
+ angleY -136.256
+}
+$grp GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.et" {
+ {
+  components {
+   FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+    "faction affiliation" "US"
+   }
+   SCR_AISmartActionSentinelComponent "{54E08A4DC95BE959}" {
+    AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+    Tags {
+     "ObservationPost"
+    }
+    ActionOffset 10 0 3.392
+    m_vLookPosition 10.147 1 8.942
+    m_fLookDirectionRange 90
+   }
+   SCR_AISmartActionSentinelComponent "{58B11620C5C6B3E6}" {
+    AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+    Tags {
+     "ObservationPost"
+    }
+    ActionOffset -6.356 0 -9.726
+    m_vLookPosition -20.533 1 -9.254
+    m_fLookDirectionRange 30
+   }
+   SCR_AISmartActionSentinelComponent "{58B11620F878F4CF}" {
+    AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+    Tags {
+     "ObservationPost"
+    }
+    ActionOffset 6.338 0 -9.023
+    m_vLookPosition 15.308 1 -11.331
+    m_fLookDirectionRange 45
+   }
+  }
+  coords 11096.191 29.666 11464.408
+  angleX 4.933
+  angleY 78.007
+  {
+   $grp StaticModelEntity : "{01AE5FD77A9A4C21}Prefabs/Structures/Military/Camps/TentSmallUS_01/TentSmallUS_01.et" {
+    {
+     components {
+      Hierarchy "{56A6E94ECFF61AD0}" {
+       Enabled 1
+      }
+     }
+     coords -5.703 0 -4.248
+     angleY 89.677
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDB77350E}" {
+       Enabled 1
+      }
+     }
+     coords -5.553 0 -6.437
+     angleY 86.553
+    }
+   }
+   GenericEntity : "{025DB189A1A9B438}Prefabs/Compositions/Misc/SubCompositions/Sign_Medical_US_01.et" {
+    coords 3.741 0.1 10.458
+   }
+   StaticModelEntity : "{059125C8BBD5ECED}Prefabs/Compositions/Misc/SubCompositions/Tent_Medical_Cluttered_US_02.et" {
+    coords -0.412 0 -1.398
+    angleY 178.431
+    {
+     GameEntity {
+      ID "5702A720C379E09E"
+      coords 2.309 0.47 1.427
+     }
+     GameEntity {
+      ID "5702A720C379E1EA"
+      coords -2.619 0.423 1.877
+     }
+     GameEntity {
+      ID "5702A720C379E77A"
+      coords -1.133 0.959 -3.27
+     }
+     GameEntity {
+      ID "5702A726D53778D8"
+      coords 2.391 0.95 5.317
+     }
+     GenericEntity {
+      ID "5702A72C15D28124"
+      coords 2.013 0.95 4.485
+     }
+     GenericEntity {
+      ID "5702A726D5377823"
+      coords -2.264 0.455 -2.316
+     }
+     GenericEntity {
+      ID "5702A726D5377892"
+      coords 2.268 0.95 4.855
+     }
+     GenericEntity {
+      ID "5702A72C15D28122"
+      coords -1.391 0.05 4.559
+     }
+     GenericEntity {
+      ID "5702A726D53779AD"
+      coords 2.584 0.958 -1.504
+     }
+     GenericEntity {
+      ID "5702A720C379E0A4"
+      coords -2.54 0.021 1.974
+     }
+     GenericEntity {
+      ID "5702A726D5377845"
+      coords 2.619 0.958 -3.367
+     }
+     GenericEntity {
+      ID "5702A726D53778AF"
+      coords -1.598 1.051 -3.399
+     }
+     GenericEntity {
+      ID "5702A726D53778B6"
+      coords 2.169 0.129 5.635
+     }
+     GenericEntity {
+      ID "5702A726D5377815"
+      coords 1.562 0.95 5.761
+     }
+     GenericEntity {
+      ID "5702A726D537780D"
+      coords 1.823 0.95 5.751
+     }
+     GenericEntity {
+      ID "58B88DF3F8F36218"
+      coords 2.307 0.033 1.527
+     }
+     GenericEntity {
+      ID "58B88DF3F8F3624C"
+      coords 2.187 0.364 -0.212
+     }
+     GenericEntity {
+      ID "5702A7267A0B4632"
+      coords 2.504 0.023 2.231
+     }
+     GenericEntity {
+      ID "5702A726D5377E1E"
+      coords 2.293 0.044 0.784
+      {
+       GenericEntity {
+        ID "56B6871A278AB642"
+        coords 0 0 -0.001
+       }
+      }
+     }
+     GenericEntity {
+      ID "5702A726D5377F08"
+      coords -2.352 0.052 -2.371
+     }
+     GenericEntity {
+      ID "5702A726D53779F6"
+      coords 2.473 0.044 -0.33
+      {
+       GenericEntity {
+        ID "56B68717D8E5E783"
+        coords 0 0 0.001
+       }
+      }
+     }
+     GenericEntity {
+      ID "5702A721736197AB"
+      coords -2.092 0.03 0.259
+     }
+     GenericEntity {
+      ID "5702A726D5377F44"
+      coords -2.391 0.053 -3.311
+     }
+     GenericEntity {
+      ID "5702A721090E0DF4"
+      coords 2.181 0.023 -0.849
+     }
+     GenericEntity {
+      ID "5702A72C15D2810D"
+      coords -2.545 0.55 5.021
+     }
+     GenericEntity {
+      ID "5702A72C15D28136"
+      coords -2.534 0.55 0.063
+     }
+     GenericEntity {
+      ID "5702A726D537799B"
+      coords 2.926 0.029 1.355
+     }
+     GenericEntity {
+      ID "5702A726D53779B5"
+      coords 2.847 0.015 1.347
+     }
+     StaticModelEntity {
+      ID "5282C8B10A7C4CAB"
+      coords 0.001 0 0.002
+     }
+     StaticModelEntity {
+      ID "5570DCD884983797"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{228F62874137C930}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral03.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED88B8237}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "HugeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      {
+       StaticModelEntity {
+        ID "5570E28F016C1569"
+        coords 0.002 0 -0.022
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD884983799"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{228F62874137C930}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral03.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED893447F}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "HugeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      {
+       StaticModelEntity {
+        ID "5570E28F0CFE9F0D"
+        coords 0 0 -0.025
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD88498379A"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{6269BF874E4909ED}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_DoorClosed.xob"
+       }
+       Hierarchy "{56A6E94ED94E5D43}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0 0 4.823
+     }
+     StaticModelEntity {
+      ID "5570DCD88498379B"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{675B29582C66D83E}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_DoorOpened.xob"
+       }
+       Hierarchy "{56A6E94ED94A7D04}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "TinyDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.002 0 -2.454
+     }
+     StaticModelEntity {
+      ID "5570DCD884987B62"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{CC9BB396A87217D0}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral01.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED8943339}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "LargeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      {
+       StaticModelEntity {
+        ID "5570E28F18379778"
+        coords 0.002 0 0.002
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BAD14"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8BABB15}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0 0 6.034
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BAD17"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8BE9795}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 3.604
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB795"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{55850A0FB5952640}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral02.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED89D96A7}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "LargeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      {
+       StaticModelEntity {
+        ID "5570E28A9A110608"
+        coords 0.001 0 0.002
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB798"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8A51193}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.002 0 -0.038
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB799"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8AAAEAD}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 -2.468
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79C"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED942DE3C}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0 0 -3.688
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79E"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8AE9A93}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0 0 4.824
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79F"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8B285D0}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 2.392
+     }
+     StaticModelEntity {
+      ID "5702A72C15D28126"
+      coords 2.005 0.05 4.517
+     }
+     StaticModelEntity {
+      ID "5702A726F8BF069D"
+      coords 2.443 0.028 3.388
+     }
+     StaticModelEntity {
+      ID "5702A72C15D28108"
+      coords -1.457 0.05 2.29
+     }
+     StaticModelEntity {
+      ID "5702A72C15D2810C"
+      coords -2.531 0.05 5.002
+     }
+     StaticModelEntity {
+      ID "5702A72C15D28137"
+      coords -2.55 0.05 0.04
+     }
+     StaticModelEntity {
+      ID "5702A726D5377F78"
+      coords -1.818 0.05 -3.313
+     }
+     StaticModelEntity {
+      ID "5702A72C15D2813B"
+      coords 2.403 0.05 -3.54
+     }
+     StaticModelEntity {
+      ID "5702A72C15D2813C"
+      coords 2.408 0.05 -2.702
+     }
+     StaticModelEntity {
+      ID "5702A72C15D2813D"
+      coords 2.393 0.05 -1.85
+     }
+     StaticModelEntity {
+      ID "5702A726D5377FD7"
+      coords 1.891 0.05 5.583
+     }
+     StaticModelEntity {
+      ID "5702A72C15D2813E"
+      coords 2.16 0.05 4.447
+     }
+     StaticModelEntity {
+      ID "5702A72C15D28109"
+      coords -1.578 0.05 3.243
+     }
+     StaticModelEntity {
+      ID "5702A72C15D2810A"
+      coords -1.676 0.05 5.673
+     }
+     StaticModelEntity {
+      ID "5702A72C15D28132"
+      coords -1.674 0.05 -1.609
+     }
+     StaticModelEntity {
+      ID "5702A72C15D28134"
+      coords -1.611 0.05 0.77
+     }
+    }
+   }
+   GenericEntity : "{0958E6B949501D00}Prefabs/Props/Military/Generators/GeneratorPortable_US_01.et" {
+    components {
+     Hierarchy "{56A6E94EDB0971AA}" {
+      Enabled 1
+     }
+    }
+    coords 3.996 0 -10.349
+    angleY -93.166
+   }
+   GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/GeneratorFloodlight_US_01.et" {
+    components {
+     Hierarchy "{5706F8D1AE683FB6}" {
+     }
+    }
+    coords -7.822 0 2.404
+    angleY 70.11
+   }
+   $grp GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDB12FD8C}" {
+       Enabled 1
+      }
+     }
+     coords -2.88 0 5.911
+     angleY -59.218
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDB16203A}" {
+       Enabled 1
+      }
+     }
+     coords -3.279 0 7.37
+     angleY -21.798
+    }
+   }
+   $grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDB1A1EE8}" {
+       Enabled 1
+      }
+     }
+     coords -4.484 0 -11.11
+     angleY 7.666
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDB186FBD}" {
+       Enabled 1
+      }
+     }
+     coords -6.403 0 -10.85
+     angleY -169.252
+    }
+   }
+   StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01_long_v1.et" {
+    components {
+     Hierarchy "{56A6E94EDB264F9E}" {
+      Enabled 1
+     }
+    }
+    coords -10.278 0.1 -1.997
+    angleY 98.452
+   }
+   GenericEntity : "{4BAC1B025834E407}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_US_01_V1_covered.et" {
+    coords -8.366 0 0.288
+    angleY 3.727
+   }
+   $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDBD156AE}" {
+       Enabled 1
+      }
+     }
+     coords 7.269 0 -11.886
+     angleY 24.532
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBD71310}" {
+       Enabled 1
+      }
+     }
+     coords 7.175 0 -11.156
+     angleY -50.812
+    }
+   }
+   $grp GenericEntity : "{5040D5BB29F06E43}Prefabs/Props/Military/Sandbags/Sandbag_01_single_plastic.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDBD5DC82}" {
+       Enabled 1
+      }
+     }
+     coords -9.133 0.127 -8.156
+     angleZ 33.266
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBDB8557}" {
+       Enabled 1
+      }
+     }
+     coords -9.032 0.1 -7.899
+     angleY 130.543
+     angleZ -45.033
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBD874F8}" {
+       Enabled 1
+      }
+     }
+     coords -10.222 0.503 -5.092
+     angleX 16.662
+     angleY -130.785
+     angleZ -13.894
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBDE2D79}" {
+       Enabled 1
+      }
+     }
+     coords -9.505 -0.047 -2.71
+     angleY -79.174
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBDC9A95}" {
+       Enabled 1
+      }
+     }
+     coords -9.918 0.298 -2.73
+     angleX 1.181
+     angleY -178.456
+     angleZ -37.417
+    }
+   }
+   $grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01_long_v2.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDBF48B5A}" {
+       Enabled 1
+      }
+     }
+     coords -10.293 0.1 -4.904
+     angleY 81.439
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBF9065D}" {
+       Enabled 1
+      }
+     }
+     coords -0.818 0.1 -11.68
+     angleY 179.559
+    }
+   }
+   $grp GenericEntity : "{620E2BD5E8C26FAB}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_US_01_V6_covered.et" {
+    {
+     coords -6.674 0 9.294
+     angleY 178.001
+    }
+    {
+     coords 2.895 0.031 -10.15
+     angleY 178.939
+    }
+    {
+     coords -7.71 0 9.35
+     angleY 90.705
+    }
+   }
+   $grp GenericEntity : "{63CBCCD35D82066C}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_US_supplies.et" {
+    {
+     components {
+      Hierarchy "{5706F8D1AE1E341F}" {
+      }
+     }
+     coords -10.768 0 5.737
+     angleY 2.47
+    }
+    {
+     components {
+      Hierarchy "{5706F8D1AE146468}" {
+      }
+     }
+     coords 3.783 0 -11.907
+     angleY 88.471
+    }
+   }
+   StaticModelEntity : "{69C51128071163C3}Prefabs/Compositions/Misc/SubCompositions/Tent_Medical_Cluttered_US_01.et" {
+    coords 7.989 0.041 -1.199
+    angleX 0.473
+    angleY -179.544
+    {
+     GameEntity {
+      ID "5702A724DEE31540"
+      coords 2.624 0.95 1.335
+      angleY -72.836
+     }
+     GameEntity {
+      ID "5702A724DEE316CC"
+      coords -2.421 0.55 2.474
+      angleY 164.021
+     }
+     GameEntity {
+      ID "5702A724DEE316D7"
+      coords -2.394 0.55 -2.677
+      angleY 75.084
+     }
+     GenericEntity {
+      ID "5702A72C4D4C281D"
+      coords -1.528 0.05 2.306
+      angleY -71.282
+     }
+     GenericEntity {
+      ID "5702A724DEE31667"
+      coords 2.508 0.959 3.827
+      angleY -108.701
+     }
+     GenericEntity {
+      ID "5702A724DEE3178D"
+      coords 2.636 0.95 1.061
+      angleY -96.515
+     }
+     GenericEntity {
+      ID "5702A724DEE31791"
+      coords 2.278 0.04 1.447
+      angleY -127.741
+     }
+     GenericEntity {
+      ID "58B88DF209014C6A"
+      coords 2.585 0.951 2.532
+      angleY -106.288
+     }
+     GenericEntity {
+      ID "5702A724DEE317A6"
+      coords 2.298 0.95 0.732
+      angleY -95.672
+     }
+     GenericEntity {
+      ID "5702A724DEE3165F"
+      coords 2.565 0.996 4.575
+      angleY -104.148
+      angleZ 90
+     }
+     GenericEntity {
+      ID "5702A721D76519FE"
+      coords -2.146 0.03 2.727
+      angleY -46.238
+     }
+     GenericEntity {
+      ID "5702A72C4D4C2863"
+      coords -2.437 0.527 -1.53
+      angleY -43.902
+     }
+     GenericEntity {
+      ID "5702A72C4D4C2865"
+      coords 2.659 0.95 2.034
+      angleY 87.938
+     }
+     StaticModelEntity {
+      ID "5282C8B10A7C4CAB"
+      coords 0.001 0 0.005
+     }
+     StaticModelEntity {
+      ID "5570DCD884983797"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{228F62874137C930}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral03.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED83FCAB6}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "HugeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 4.826
+      {
+       StaticModelEntity {
+        ID "5570E28F016C1569"
+        coords 0 0 -0.025
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD884983799"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{228F62874137C930}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral03.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED8C0100B}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "HugeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 -2.452
+      angleY -180
+      {
+       StaticModelEntity {
+        ID "5570E28F0CFE9F0D"
+        coords 0.002 0 -0.021
+        angleY -180
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD88498379A"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{6269BF874E4909ED}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_DoorClosed.xob"
+       }
+       Hierarchy "{56A6E94ED8F9DFF3}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 4.826
+     }
+     StaticModelEntity {
+      ID "5570DCD88498379B"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{675B29582C66D83E}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_DoorOpened.xob"
+       }
+       Hierarchy "{56A6E94ED8F5AAEA}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "TinyDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 -2.452
+      angleY -180
+     }
+     StaticModelEntity {
+      ID "5570DCD884987B62"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{CC9BB396A87217D0}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral01.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED8CAAF4A}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "LargeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 0.005
+      {
+       StaticModelEntity {
+        ID "5570E28F18379778"
+        coords 0 0 0
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BAD09"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8E638C6}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0.001 1.177
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BAD14"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8EBA597}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0.001 6.039
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BAD17"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8EF2426}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.002 0 3.607
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB795"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{55850A0FB5952640}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_FabricCentral02.xob"
+        ClutterOccluder 1
+       }
+       Hierarchy "{56A6E94ED8D3EE8B}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "LargeDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 2.422
+      {
+       StaticModelEntity {
+        ID "5570E28A9A110608"
+        coords 0 0 0
+       }
+      }
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB798"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8D4D969}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.002 0 -0.035
+      angleY -180
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB799"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8D9AB03}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.002 0 -2.464
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79C"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8ECA7C6}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.002 0 -3.686
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79D"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{88105A6B74B06382}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction01.xob"
+       }
+       Hierarchy "{56A6E94ED8F0236F}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "MediumDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0.001 -1.251
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79E"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8DD2515}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0.001 0 4.827
+      angleY 180
+     }
+     StaticModelEntity {
+      ID "5570DCD8849BB79F"
+      components {
+       MeshObject "{527A8AD68830D1F5}" {
+        Object "{110EE3F269575212}Assets/Structures/Military/Camps/TentUS_01/TentUS_01_Construction02.xob"
+       }
+       Hierarchy "{56A6E94ED8E2BD41}" {
+        Enabled 1
+       }
+       RigidBody "{527A8AD68ADF352C}" {
+        ResponseIndex "SmallDestructible"
+       }
+       SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{56D4936F78B155EE}" {
+          m_Particle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{56D4936DC75047D3}" {
+          m_fPhaseHealth 500
+         }
+        }
+       }
+      }
+      coords 0 0 2.396
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C281E"
+      coords 2.224 0.05 2.153
+      angleY 111.917
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C281F"
+      coords 2.114 0.05 0.688
+      angleY 81.561
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2810"
+      coords -2.328 0.05 -2.632
+      angleY 4.954
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2811"
+      coords -2.438 0.05 1.41
+      angleY 91.388
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2813"
+      coords -2.462 0.05 2.445
+      angleY 106.443
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2814"
+      coords -2.509 0.05 4.939
+      angleY -11.242
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2815"
+      coords 2.384 0.05 3.37
+      angleY -88.26
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2816"
+      coords 2.386 0.051 -1.934
+      angleY -90.78
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2817"
+      coords 2.37 0.05 5.147
+      angleY -85.876
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2868"
+      coords 2.409 0.05 4.198
+      angleY -88.978
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2869"
+      coords 2.391 0.05 -3.628
+      angleY -89.044
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C286A"
+      coords 2.396 0.05 -2.786
+      angleY -93.245
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C286C"
+      coords 2.389 0.05 0.785
+      angleY -91.717
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C286D"
+      coords 2.443 0.05 2.13
+      angleY -89.924
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2860"
+      coords -1.604 0.05 0.701
+      angleY 179.544
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2861"
+      coords -1.562 0.05 3.172
+      angleY 179.544
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C2862"
+      coords -1.649 0.05 5.604
+      angleY 179.544
+     }
+     StaticModelEntity {
+      ID "5702A72C4D4C286F"
+      coords -1.681 0.05 -1.679
+      angleY 179.544
+     }
+    }
+   }
+   $grp GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_end_plastic.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDBA99FFB}" {
+       Enabled 1
+      }
+     }
+     coords -10.102 0 -1.587
+     angleY 96.621
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBAE3ABF}" {
+       Enabled 1
+      }
+     }
+     coords -10.003 0 0.2
+     angleY -84.122
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBB37592}" {
+       Enabled 1
+      }
+     }
+     coords -3.194 0 -11.33
+     angleY 11.312
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBB19A69}" {
+       Enabled 1
+      }
+     }
+     coords -0.153 0 -11.619
+     angleY -178.795
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBB62AD4}" {
+       Enabled 1
+      }
+     }
+     coords -10.01 0 -5.924
+     angleY -96.623
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBBB608A}" {
+       Enabled 1
+      }
+     }
+     coords -9.84 0 -7.125
+     angleY 81.327
+    }
+   }
+   $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_Triple.et" {
+    {
+     components {
+      Hierarchy "{56A6E94EDBB9BA41}" {
+       Enabled 1
+      }
+     }
+     coords -11.396 0 1.024
+     angleY 1.734
+    }
+    {
+     components {
+      Hierarchy "{56A6E94EDBBEFCD7}" {
+       Enabled 1
+      }
+     }
+     coords -11.518 0 -2.137
+     angleY 2.512
+    }
+    {
+     components {
+      Hierarchy "{56A6E94ED843D9F0}" {
+       Enabled 1
+      }
+     }
+     coords -3.771 0 -12.388
+     angleY 89.502
+    }
+    {
+     components {
+      Hierarchy "{56A6E94ED8400457}" {
+       Enabled 1
+      }
+     }
+     coords -6.407 0 -12.084
+     angleY 99.918
+    }
+    {
+     components {
+      Hierarchy "{56A6E94ED84542A4}" {
+       Enabled 1
+      }
+     }
+     coords -10.884 0 -8.127
+     angleY 162.922
+    }
+    {
+     components {
+      Hierarchy "{56A6E94ED84B8BC3}" {
+       Enabled 1
+      }
+     }
+     coords -11.437 0 -5.28
+     angleY -4.768
+    }
+    {
+     components {
+      Hierarchy "{56A6E94ED848FD6C}" {
+       Enabled 1
+      }
+     }
+     coords -0.711 0 -12.304
+     angleY 87.632
+    }
+   }
+   GenericEntity : "{9BA66CBE60105146}Prefabs/Compositions/Misc/SubCompositions/ShelterStorage_Cluttered_US_01.et" {
+    coords -6.401 0 6.5
+    angleY 90
+   }
+   $grp GenericEntity : "{9DD476816836FFED}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_US_01_V5_covered.et" {
+    {
+     coords 5.353 0 -10.165
+    }
+    {
+     coords -5.464 0 9.388
+    }
+   }
+   $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01_long_v3.et" {
+    {
+     components {
+      Hierarchy "{56A6E94ED85CC5B7}" {
+       Enabled 1
+      }
+     }
+     coords -9.996 0.1 1.026
+     angleY 89.092
+    }
+    {
+     components {
+      Hierarchy "{56A6E94ED86123A1}" {
+       Enabled 1
+      }
+     }
+     coords -3.768 0.1 -11.42
+     angleY 8.105
+    }
+   }
+   $grp GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+    {
+     components {
+      Hierarchy "{5706F8D1B15AB06F}" {
+      }
+     }
+     coords -6.201 0 -2.976
+    }
+    {
+     components {
+      Hierarchy "{5706F8D1B1516968}" {
+      }
+     }
+     coords 5.017 0 6.18
+    }
+    {
+     components {
+      Hierarchy "{5706F8D1B145D0CC}" {
+      }
+     }
+     coords 5.505 0.213 8.09
+     angleX -63.59
+     angleY 22.196
+     angleZ -90
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     components {
+      Hierarchy "{5706F8D1B1785158}" {
+      }
+     }
+     coords 5.084 0 5.236
+     angleY 90
+    }
+    {
+     components {
+      Hierarchy "{5706F8D1B16CF749}" {
+      }
+     }
+     coords 1.571 0 3.794
+     angleY 94.456
+    }
+    {
+     components {
+      Hierarchy "{5706F8D1B1633090}" {
+      }
+     }
+     coords 0.258 0 5.218
+     angleY 86.45
+    }
+    {
+     components {
+      Hierarchy "{5706F8D1B11652E3}" {
+      }
+     }
+     coords 5.435 0 3.624
+     angleY 97.376
+    }
+   }
+   GenericEntity : "{DFF391458A7AC773}Prefabs/Props/Military/WaterTanks/MobileWaterTank_US_01.et" {
+    components {
+     Hierarchy "{56A6E94ED81C3013}" {
+      Enabled 1
+     }
+    }
+    coords 4.511 0 7.586
+    angleY -22.278
+   }
+  }
+ }
+ {
+  components {
+   FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_AISmartActionSentinelComponent "{58B11621F356FB7F}" {
+    AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+    Tags {
+     "ObservationPost"
+    }
+    ActionOffset -16.771 0 0
+    m_vLookPosition -25.064 1 0
+    m_fLookDirectionRange 90
+    m_bUseBinoculars 1
+   }
+   SCR_AISmartActionSentinelComponent "{58B11621F675ADCE}" {
+    AIBehaviorTree "{12B4838160EDE026}AI/BehaviorTrees/SmartActions/SA_CoverPost.bt"
+    Tags {
+     "CoverPost"
+    }
+    ActionOffset 3.397 0 15.991
+    m_vLookPosition 8.278 1 23.962
+    m_fLookDirectionRange 45
+    m_eLeaningType LEFT
+   }
+   SCR_AISmartActionSentinelComponent "{58B11621FD5DFDD6}" {
+    AIBehaviorTree "{12B4838160EDE026}AI/BehaviorTrees/SmartActions/SA_CoverPost.bt"
+    Tags {
+     "CoverPost"
+    }
+    ActionOffset -2.72 0 -16.296
+    m_vLookPosition -11.927 1 -20.088
+    m_fLookDirectionRange 45
+    m_iCharacterStance CROUCH
+   }
+  }
+  coords 11128.773 31.448 11474.402
+  angleX -0.695
+  angleY -130.422
+  {
+   SCR_DestructibleBuildingEntity : "{0DF531BD85B4FD8B}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_USSR_02.et" {
+    coords 12.545 0 0.034
+    angleY -91.097
+    {
+     $grp GenericEntity {
+      {
+       components {
+        Hierarchy "{5706FD02D5D447BE}" {
+         Enabled 1
+        }
+       }
+      }
+      {
+       components {
+        Hierarchy "{5706FD02D5DEF950}" {
+         Enabled 1
+        }
+       }
+      }
+      {
+       components {
+        Hierarchy "{58B8CD46CB66C0A0}" {
+         Enabled 1
+        }
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{0F4F2F8A1BB4766F}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/SignFlag_USSR_01.et" {
+    components {
+     Hierarchy "{58B8CD46CB94348E}" {
+      Enabled 1
+     }
+    }
+    coords -2.505 0.1 -18.311
+    angleY -180
+   }
+   GenericEntity : "{1666078C5157E508}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_02.et" {
+    coords 0.652 0 -12.239
+    angleY -90
+   }
+   $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+    {
+     components {
+      Hierarchy "{5706FD02D594B257}" {
+       Enabled 1
+      }
+     }
+     coords -0.627 0 -5.845
+     angleY 29.374
+    }
+    {
+     components {
+      Hierarchy "{5706FD02D58B1359}" {
+       Enabled 1
+      }
+     }
+     coords 1.825 0 -5.356
+     angleY -37.951
+    }
+    {
+     components {
+      Hierarchy "{5706FD02D5BFC6BF}" {
+       Enabled 1
+      }
+     }
+     coords -0.241 0 -2.104
+     angleY 145.976
+    }
+    {
+     components {
+      Hierarchy "{5706FD02D5B2A1BD}" {
+       Enabled 1
+      }
+     }
+     coords -1.161 0 -2.839
+     angleY 119.374
+    }
+    {
+     components {
+      Hierarchy "{5706FD02D5A4C93C}" {
+       Enabled 1
+      }
+     }
+     coords 1.886 0 -2.739
+     angleY -124.988
+    }
+   }
+   GenericEntity : "{26D4DEA2D7230A49}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_OilStain_01_large.et" {
+    coords -17.598 0.1 0.167
+   }
+   GenericEntity : "{3AE0A97C6595801F}Prefabs/Props/Military/WaterTanks/MobileWaterTank_USSR_01.et" {
+    components {
+     Hierarchy "{5654C1ECCA1FBB61}" {
+      Enabled 1
+     }
+    }
+    coords -3.152 0 -5.192
+    angleY -180
+   }
+   GenericEntity : "{44FD6B68E3E9F83F}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_BaseEntrance_USSR_01.et" {
+    components {
+     Hierarchy "{5654C1ECCA1C8C83}" {
+      Enabled 1
+     }
+    }
+    coords 2.226 0.1 17.07
+   }
+   GenericEntity : "{4EF68238FE2FC26B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_04.et" {
+    coords -16.798 0 0.143
+    angleY 91.446
+   }
+   StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01_long_v2.et" {
+    components {
+     Hierarchy "{5654C1ECCB3F8185}" {
+      Enabled 1
+     }
+    }
+    coords 1.413 0 -17.57
+    angleY -179.813
+   }
+   GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFloodlight_USSR_01.et" {
+    components {
+     Hierarchy "{570CF4A28F9F2796}" {
+      Enabled 1
+     }
+    }
+    coords 9.602 0 -5.448
+    angleY -52.508
+   }
+   SCR_DestructibleBuildingEntity : "{61A1055D397072A5}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_USSR_01.et" {
+    coords -11.493 0 -10.308
+    angleY 88.734
+    {
+     $grp GenericEntity {
+      {
+       components {
+        Hierarchy "{5706FD02D57BABFA}" {
+         Enabled 1
+        }
+       }
+      }
+      {
+       components {
+        Hierarchy "{5706FD02D56587DE}" {
+         Enabled 1
+        }
+       }
+      }
+      {
+       components {
+        Hierarchy "{58B8CD46CB8A2D43}" {
+         Enabled 1
+        }
+       }
+      }
+     }
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{6DEC3A82BA35F108}Prefabs/Compositions/Misc/SubCompositions/Tent_BarrackHQ_Cluttered_USSR_01.et" {
+    coords -11.22 0 0.311
+    angleY 91.801
+   }
+   GenericEntity : "{73C2A7008B434B5C}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_03.et" {
+    coords 0.756 0 12.438
+    angleY 0.53
+   }
+   $grp StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/TentSmallUSSR_01/TentSmallUSSR_01.et" {
+    {
+     components {
+      Hierarchy "{5654C1ECCB683FB7}" {
+       Enabled 1
+      }
+     }
+     coords 18.678 0 -4.501
+     angleY 37.524
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECCB6357F4}" {
+       Enabled 1
+      }
+     }
+     coords 17.043 0 0.074
+     angleY 96.825
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECCB7E491B}" {
+       Enabled 1
+      }
+     }
+     coords 18.459 0 2.787
+     angleY 139.179
+    }
+   }
+   GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    coords 0.625 0.023 -17.556
+    angleY 0
+   }
+   GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+    components {
+     Hierarchy "{5654C1ECCB59A645}" {
+      Enabled 1
+     }
+    }
+    coords -18.935 0 0.216
+    angleY -91.446
+   }
+   GenericEntity : "{9AEB1E4AD352B78A}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_05.et" {
+    coords -1.845 0 -4.621
+    angleY 90
+    scale 1.5
+   }
+   GenericEntity : "{9B7F08BF4C938AD2}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_Soviet.et" {
+    components {
+     Hierarchy "{5654C1ECC4CBBD32}" {
+      Enabled 1
+     }
+    }
+    coords -5.162 0 0.298
+    angleY -90
+   }
+   GenericEntity : "{AA96C0FB1A65B886}Prefabs/Props/Military/FieldKitchenTrailerUSSR_01.et" {
+    components {
+     Hierarchy "{5654C1ECC5007E21}" {
+      Enabled 1
+     }
+    }
+    coords 2.448 0 5.429
+    angleY -61.21
+   }
+   StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01_long_v3.et" {
+    components {
+     Hierarchy "{5654C1ECC5112483}" {
+      Enabled 1
+     }
+    }
+    coords -1.588 0 -17.648
+    angleY -179.813
+   }
+   $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+    {
+     components {
+      Hierarchy "{5654C1ECC55FF8B7}" {
+       Enabled 1
+      }
+     }
+     coords -1.369 -0.032 -17.594
+     angleY -179.813
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC5575B37}" {
+       Enabled 1
+      }
+     }
+     coords 2.268 0 -17.543
+     angleY 0.187
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{B6D61E3EC914119E}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_01.et" {
+    coords 12.273 0 11.002
+    angleY -88.907
+   }
+   $grp GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+    {
+     components {
+      Hierarchy "{5654C1ECC5BEBB73}" {
+       Enabled 1
+      }
+     }
+     coords -0.512 0.1 8.769
+     angleY 131.441
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC58E58B6}" {
+       Enabled 1
+      }
+     }
+     coords 3.342 0 3.628
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC5861DA1}" {
+       Enabled 1
+      }
+     }
+     coords 1.849 0 4.595
+     angleY -37.124
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC5E40DB4}" {
+       Enabled 1
+      }
+     }
+     coords -9.551 0.1 10.58
+     angleY -70.448
+    }
+   }
+   $grp GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+    {
+     components {
+      Hierarchy "{5706FD02D78F1212}" {
+       Enabled 1
+      }
+     }
+     coords -3.177 0 -3.303
+     angleY -1.484
+    }
+    {
+     components {
+      Hierarchy "{5706FD02D7800DF8}" {
+       Enabled 1
+      }
+     }
+     coords -2.548 0.274 -3.578
+     angleX 75
+     angleZ -120
+    }
+   }
+   $grp GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_CigarButts_01.et" {
+    {
+     coords -0.289 0.1 -3.359
+     angleY -63.397
+    }
+    {
+     coords 1.165 0.1 -3.015
+    }
+   }
+   GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
+    components {
+     Hierarchy "{5654C1ECC76B080A}" {
+      Enabled 1
+     }
+    }
+    coords -2.394 0 -17.608
+    angleY -179.813
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     components {
+      Hierarchy "{5654C1ECC7C3B62C}" {
+       Enabled 1
+      }
+     }
+     coords -5.683 0 -14.733
+     angleY 2.462
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC7D8ED2B}" {
+       Enabled 1
+      }
+     }
+     coords -5.462 0 -10.924
+     angleY 0.361
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC02E5A6A}" {
+       Enabled 1
+      }
+     }
+     coords -5.549 0 -7.103
+     angleY 0.85
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC0223827}" {
+       Enabled 1
+      }
+     }
+     coords -5.207 0 -3.308
+     angleY 2.788
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC0374DD4}" {
+       Enabled 1
+      }
+     }
+     coords -5.164 0 0.506
+     angleY 0.185
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC00BEF07}" {
+       Enabled 1
+      }
+     }
+     coords -5.07 0 4.322
+     angleY 1.48
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC000D4B8}" {
+       Enabled 1
+      }
+     }
+     coords -5.189 0 8.039
+     angleY 0.316
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC015DFA4}" {
+       Enabled 1
+      }
+     }
+     coords -4.855 0 11.832
+     angleY 3.702
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC06AB079}" {
+       Enabled 1
+      }
+     }
+     coords -4.633 0 15.712
+     angleY -0.259
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC07F95D6}" {
+       Enabled 1
+      }
+     }
+     coords 5.779 0 -11.407
+     angleY 0.361
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC0747FA4}" {
+       Enabled 1
+      }
+     }
+     coords 5.692 0 -7.586
+     angleY 0.85
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC0493E39}" {
+       Enabled 1
+      }
+     }
+     coords 6.034 0 -3.791
+     angleY 2.788
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC05D895F}" {
+       Enabled 1
+      }
+     }
+     coords 6.077 0 0.023
+     angleY 0.185
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC050ABAD}" {
+       Enabled 1
+      }
+     }
+     coords 6.171 0 3.839
+     angleY 1.48
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC0A4C290}" {
+       Enabled 1
+      }
+     }
+     coords 6.052 0 7.555
+     angleY 0.316
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC0B92C42}" {
+       Enabled 1
+      }
+     }
+     coords 6.386 0 11.349
+     angleY 3.702
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC08D9957}" {
+       Enabled 1
+      }
+     }
+     coords 6.608 0 15.229
+     angleY -0.259
+    }
+    {
+     components {
+      Hierarchy "{5654C1ECC081CB7C}" {
+       Enabled 1
+      }
+     }
+     coords 5.558 0 -15.217
+     angleY 2.462
+    }
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     Hierarchy "{58C2B9040B205625}" {
+     }
+    }
+    coords 0.226 0 -4.073
+   }
+   SCR_DestructibleBuildingEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_02.et" {
+    coords 11.799 0 -11.039
+    angleY -91.541
+   }
+   SCR_DestructibleBuildingEntity : "{E8697D4489516AE0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_USSR_03.et" {
+    coords -10.682 0 11.053
+    angleY 89.046
+   }
+  }
+ }
+}

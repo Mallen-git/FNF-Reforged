@@ -1,0 +1,93 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  VerticalLayoutWidgetClass "{596563114B59143F}" {
+   Name "VerticalLayout"
+   Slot FrameWidgetSlot "{596563114B59141D}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -22
+    OffsetLeft -22
+    PositionY -22
+    OffsetTop -22
+    SizeX 44
+    OffsetRight -22
+    SizeY 44
+    OffsetBottom -22
+   }
+   {
+    OverlayWidgetClass "{596563114F16A0DC}" {
+     Name "Overlay0"
+     Slot LayoutSlot "{596563114F16A0A2}" {
+      SizeMode Fill
+     }
+     {
+      ScaleWidgetClass "{596563117E9035A5}" {
+       Name "Scale0"
+       Slot OverlayWidgetSlot "{596563117E90358A}" {
+       }
+       "Z Order" 2
+       {
+        ImageWidgetClass "{59656311734395BC}" {
+         Name "Image0"
+         Slot AlignableSlot "{5965631173439582}" {
+         }
+         Texture "{736B5AB6E26A7C3A}UI/Imagesets/FNF_SustainedAssaultImageset.imageset"
+         Image "IconContainer"
+         Size 258 258
+        }
+       }
+      }
+      TextWidgetClass "{5965631167218B3A}" {
+       Name "Name"
+       Slot OverlayWidgetSlot "{5965631167218B18}" {
+        Padding 0 0 0 0
+       }
+       "Z Order" 2
+       Text "A"
+       "Font Size" 30
+       "Min Font Size" 30
+       FontProperties FontProperties "{5967495ACF35DD9C}" {
+        OutlineSize 3
+       }
+       Offset 0 0
+       "Line Spacing" 2
+      }
+      ScaleWidgetClass "{5965631115A6A069}" {
+       Name "Scale1"
+       Slot OverlayWidgetSlot "{5965631115A6A04F}" {
+       }
+       {
+        ImageWidgetClass "{596563111645B7A3}" {
+         Name "Icon_Backdrop"
+         Slot AlignableSlot "{596563111645B780}" {
+         }
+         Color 0.157 0.624 0.624 1
+         Size 10000 10000
+        }
+       }
+      }
+      ScaleWidgetClass "{5965631135471E89}" {
+       Name "Scale2"
+       Slot OverlayWidgetSlot "{5965631135471E92}" {
+       }
+       "Z Order" 1
+       "Scale Mode" "Scale to fill"
+       {
+        SliderWidgetClass "{5965631136B56773}" {
+         Name "Slider"
+         Slot AlignableSlot "{5965631136B56751}" {
+         }
+         Color 0.749 0.376 0.376 1
+         Size 10000 10000
+         current 70
+         vertical 1
+         flipped 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

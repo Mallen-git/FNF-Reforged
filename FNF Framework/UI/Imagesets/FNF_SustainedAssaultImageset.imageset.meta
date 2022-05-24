@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{736B5AB6E26A7C3A}UI/Imagesets/FNF_SustainedAssaultImageset.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+ }
+}

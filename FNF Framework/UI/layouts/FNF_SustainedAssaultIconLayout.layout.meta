@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{904F2928D94A0621}UI/layouts/FNF_SustainedAssaultIconLayout.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

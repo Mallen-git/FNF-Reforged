@@ -1,0 +1,19 @@
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 21809.699
+  }
+ }
+ coords 0 0 0
+ {
+  SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+   ID "59691AB91D1314F3"
+   coords 0 0 -9
+   m_fSpawnRadius 5
+   m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+    Name "Mobile Respawn Point"
+   }
+  }
+ }
+}

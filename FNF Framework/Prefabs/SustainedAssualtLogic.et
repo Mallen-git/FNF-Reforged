@@ -1,0 +1,184 @@
+GenericEntity {
+ ID "596503BB6164DAB4"
+ {
+  SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+   ID "596503BB6164DAB6"
+   coords -11410.499 -69.146 -11178.781
+  }
+  FNF_GameModeSustainedAssault FNF_GameModeSustainedAssault1 {
+   ID "596503BB61649E44"
+   components {
+    SCR_CallsignManagerComponent "{596503A0CC6E7E7F}" {
+    }
+    SCR_DestructionManagerComponent "{596503A0CC6E7E4A}" {
+    }
+    SCR_GameOverScreenManagerComponent "{596503A0CC6E7E0E}" {
+     m_GameOverScreenConfig SCR_GameOverScreenConfig "{596503A0CC6E7E0D}" {
+      m_aGameOverScreens {
+       SCR_FactionVictoryGameOverScreenInfo "{596503A0CC6E7E04}" {
+        m_GameOverScreenId FACTION_VICTORY_SCORE
+        m_GameOverContentLayout "{C4507D07F3C54831}UI/layouts/HUD/GameOver/EndScreen/EndScreen_NoImage.layout"
+       }
+       SCR_FactionGameOverScreenInfo "{596503A0CC6E7E0B}" {
+        m_GameOverScreenId FACTION_DEFEAT_SCORE
+        m_GameOverContentLayout "{C4507D07F3C54831}UI/layouts/HUD/GameOver/EndScreen/EndScreen_NoImage.layout"
+       }
+      }
+     }
+     m_sGameOverScreenBasePrefab "{AD9701BB476CB59A}UI/layouts/HUD/GameOver/EndScreen/EndScreen.layout"
+    }
+    SCR_GroupsManagerComponent "{596503A0CC6E7E18}" {
+     m_sDefaultGroupPrefab "{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+     m_iPlayableGroupFrequencyMin 30000
+     m_iPlayableGroupFrequencyMax 512000
+    }
+    SCR_HintManagerComponent "{596503A0CC6E7EE1}" {
+    }
+    SCR_NametagConfigComponent "{596503A0CC6E7EE8}" {
+     m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+    }
+    SCR_NotificationSenderComponent "{596503A0CC6E7EEC}" {
+    }
+    SCR_PlayerProfileManagerComponent "{596503A0CC6E7EEF}" {
+    }
+    SCR_PlayerSpawnPointManagerComponent "{596503A0CC6E7EF7}" {
+     m_SpawnPointPrefab "{456EFDDA59DD6EB2}Prefabs/MP/PlayerRadioSpawnPoint.et"
+     m_bEnablePlayerSpawnPoints 0
+    }
+    SCR_PlayersRestrictionZoneManagerComponent "{596503A0CC6E7EFE}" {
+    }
+    SCR_PossessingManagerComponent "{596503A0CC6E7EC2}" {
+    }
+    SCR_RespawnMenuHandlerComponent "{596503A0CC6E7EDC}" {
+    }
+    SCR_RespawnSystemComponent "{596503A0CC6E7EA0}" {
+    }
+    SCR_RespawnTimerComponent "{596503A0CC6E7EA3}" {
+    }
+    SCR_SaveLoadComponent "{596503A0CC6E7EA7}" {
+    }
+    SCR_ScoringSystemComponent "{596503A0CC6E7EAA}" {
+    }
+    RplComponent "{596503A0CC6E7EB2}" {
+     "Rpl State Override" Static
+     Streamable Disabled
+    }
+   }
+   coords 78.238 -67.297 -288.725
+  }
+  PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+   ID "596503BB61649E45"
+   coords -11410.499 -69.146 -11178.781
+  }
+  TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+   ID "596503BB61649E4A"
+   coords -11410.499 -69.146 -11178.781
+  }
+  SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+   ID "596503BB61675825"
+   coords -120.672 -36.937 -159.354
+   Factions {
+    SCR_Faction "{56B2B46E999BF3BF}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{55BC75A39A9075AE}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{596503A9A77A9812}" {
+        m_sCallsign "Company 1"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{596503AA54F31AD6}" {
+        m_sCallsign "Platoon 1"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{596503AA40ED599C}" {
+        m_sCallsign "Command"
+       }
+       SCR_CallsignInfo "{596503AA78914D3A}" {
+        m_sCallsign "Xray"
+       }
+       SCR_CallsignInfo "{596503AA7FF6CDBF}" {
+        m_sCallsign "Alpha"
+       }
+       SCR_CallsignInfo "{596503AA70B555A8}" {
+        m_sCallsign "Bravo"
+       }
+       SCR_CallsignInfo "{596503AA74AABCE0}" {
+        m_sCallsign "Charlie"
+       }
+       SCR_CallsignInfo "{596503AA6921E510}" {
+        m_sCallsign "Delta"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3: %4"
+     }
+    }
+    SCR_Faction "{56B2B46E9AF80999}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{55BC75A3D2F07FB5}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{596503AA04CC6055}" {
+        m_sCallsign "Company 1"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{596503AA3D30D91F}" {
+        m_sCallsign "Platoon 1"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
+        m_sCallsign "Command"
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "Xray"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "Alpha"
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+        m_sCallsign "Bravo"
+       }
+       SCR_CallsignInfo "{596503AA2E049B5B}" {
+        m_sCallsign "Charlie"
+       }
+       SCR_CallsignInfo "{596503AA22E633D7}" {
+        m_sCallsign "Delta"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3: %4"
+     }
+    }
+   }
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+   ID "596503BB61670E94"
+   coords -11410.499 -69.146 -11178.781
+  }
+  ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+   ID "596503BB61670E95"
+   coords -11410.499 -69.146 -11178.781
+  }
+  HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+   ID "596503BB6167BAEA"
+   coords -11410.499 -69.146 -11178.781
+  }
+  SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+   ID "596503BB6167AC62"
+   coords -104.631 -31.075 -147.411
+  }
+  GarbageManager : "{9B883A7D8EBB282A}Prefabs/MP/Managers/GarbageManager.et" {
+   ID "596503BB61662B4D"
+   coords 89.555 -67.297 -290.524
+  }
+  SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+   ID "596503BB61662B4E"
+   coords -11410.499 -69.146 -11178.781
+  }
+  ItemPreviewManagerEntity ItemPreviewManager1 : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+   ID "596503BB6166A657"
+   coords -11410.499 -69.146 -11178.781
+  }
+ }
+}

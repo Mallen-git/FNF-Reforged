@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D6937E053A910810}Prefabs/Vehicles/Wheeled/M923A1"
+ Configurations {
+  FolderResourceClass PC {
+  }
+  FolderResourceClass XBOX_ONE : PC {
+  }
+  FolderResourceClass XBOX_SERIES : PC {
+  }
+  FolderResourceClass PS4 : PC {
+  }
+  FolderResourceClass HEADLESS : PC {
+  }
+ }
+}

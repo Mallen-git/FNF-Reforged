@@ -1,0 +1,17 @@
+ImageSetClass {
+ RefSize 264 264
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "UI/Imagesets/FNF_SustainedAssaultImageset_atlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass IconContainer {
+   Name "IconContainer"
+   Pos 1 1
+   Size 258 258
+   Flags 0
+  }
+ }
+}

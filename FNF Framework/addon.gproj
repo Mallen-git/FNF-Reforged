@@ -1,0 +1,8 @@
+GameProject {
+ ID "FNFFramework"
+ GUID "596503AC50F0964B"
+ TITLE "FNF Framework"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
