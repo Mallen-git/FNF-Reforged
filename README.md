@@ -1,17 +1,17 @@
 # Friday Night Fight Reforged Mission Framework
 
 <p align="center">
-  <a href="https://github.com/FridayNightFight/FNF/releases/latest">
-    <img src="https://img.shields.io/github/v/release/FridayNightFight/FNF?style=plastic&label=version&sort=semver" alt="version">
+  <a href="https://github.com/Mallen-git/FNF-Reforged/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Mallen-git/FNF-Reforged?style=plastic&label=version&sort=semver" alt="version">
   </a>
-  <a href="https://github.com/FridayNightFight/FNF/releases/latest">
-    <img src="https://img.shields.io/github/languages/code-size/FridayNightFight/FNF?style=plastic" alt="code size">
+  <a href="https://github.com/Mallen-git/FNF-Reforged/releases/latest">
+    <img src="https://img.shields.io/github/languages/code-size/Mallen-git/FNF-Reforged?style=plastic" alt="code size">
   </a>
-  <a href="https://github.com/FridayNightFight/FNF/releases/latest">
-    <img src="https://img.shields.io/github/license/FridayNightFight/FNF?style=plastic" alt="code size">
+  <a href="https://github.com/Mallen-git/FNF-Reforged/releases/latest">
+    <img src="https://img.shields.io/github/license/Mallen-git/FNF-Reforged?style=plastic" alt="code size">
   </a>
-  <a href="https://github.com/FridayNightFight/FNF/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/FridayNightFight/FNF?style=plastic" alt="contributors">
+  <a href="https://github.com/Mallen-git/FNF-Reforged/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Mallen-git/FNF-Reforged?style=plastic" alt="contributors">
   </a>
   <br/>
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1551644814">
