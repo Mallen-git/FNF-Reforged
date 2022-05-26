@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{92B628F5E9985797}Scripts/Game/UI/SustainedAssault"
+ Configurations {
+  FolderResourceClass PC {
+  }
+  FolderResourceClass XBOX_ONE : PC {
+  }
+  FolderResourceClass XBOX_SERIES : PC {
+  }
+  FolderResourceClass PS4 : PC {
+  }
+  FolderResourceClass HEADLESS : PC {
+  }
+ }
+}
