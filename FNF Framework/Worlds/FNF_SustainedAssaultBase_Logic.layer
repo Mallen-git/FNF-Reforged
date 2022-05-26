@@ -18,6 +18,8 @@ GenericEntity SustainedAssualtLogic {
   }
   FNF_GameModeSustainedAssault FNF_GameModeSustainedAssault1 {
    components {
+    FNF_CoreNotificationManagerComponent "{59733521A320999C}" {
+    }
     SCR_CallsignManagerComponent "{596503A0CC6E7E7F}" {
     }
     SCR_DestructionManagerComponent "{596503A0CC6E7E4A}" {

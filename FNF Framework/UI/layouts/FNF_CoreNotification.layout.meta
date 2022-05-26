@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7FFE343D0CC6714E}UI/layouts/FNF_CoreNotification.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

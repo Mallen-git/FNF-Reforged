@@ -12,6 +12,10 @@ SCR_PlayerController : "{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerC
      m_eLayer OVERLAY
      m_rObjectiveHUDLayout "{E65CA948D1EF3E74}UI/layouts/FNF_SustainedAssaultIcon.layout"
     }
+    FNF_CoreNotificationDisplay "{5973352C720D6A7D}" {
+     m_LayoutPath "{7FFE343D0CC6714E}UI/layouts/FNF_CoreNotification.layout"
+     m_eLayer ALWAYS_TOP
+    }
    }
   }
   SCR_RespawnComponent "{596745D860018A7A}" {

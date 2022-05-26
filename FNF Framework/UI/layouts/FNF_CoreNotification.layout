@@ -1,0 +1,70 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  SizeLayoutWidgetClass "{59733533098F68F9}" {
+   Name "SizeLayout0"
+   Slot FrameWidgetSlot "{59733533098F68D9}" {
+    Anchor 1 0 1 0
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+    Alignment 1 0
+    SizeToContent 1
+   }
+   AllowMaxDesiredWidth 1
+   MaxDesiredWidth 400
+   MaxDesiredHeight 0
+   {
+    OverlayWidgetClass "{597335330FFEA824}" {
+     Name "Overlay"
+     Slot AlignableSlot "{597335145C989D1B}" {
+     }
+     {
+      TextWidgetClass "{59733533871F320A}" {
+       Name "Title_Text"
+       Slot OverlayWidgetSlot "{59733533871F32EA}" {
+        VerticalAlign 0
+        Padding 10 20 10 0
+       }
+       "Z Order" 1
+       Text "Title Text"
+       "Font Size" 48
+       "Min Font Size" 48
+       FontProperties FontProperties "{5973353C4CE9DE6C}" {
+        ShadowSize 32
+       }
+      }
+      RichTextWidgetClass "{5973353C71E1B1C1}" {
+       Name "Message_Text"
+       Slot OverlayWidgetSlot "{5973353C71E1B1A0}" {
+        VerticalAlign 0
+        Padding 10 75 10 0
+       }
+       "Z Order" 1
+       Text "MessagText"
+       Wrap 1
+       FontProperties FontProperties "{5973353CEF10C352}" {
+        ShadowSize 32
+       }
+      }
+      ImageWidgetClass "{59733533DFEA75B0}" {
+       Name "Background"
+       Slot OverlayWidgetSlot "{597335298DAF9B17}" {
+        HorizontalAlign 2
+        VerticalAlign 0
+       }
+       Color 0.033 0.033 0.033 0.518
+       Size 400 85
+       Tiling None
+      }
+     }
+    }
+   }
+  }
+ }
+}
